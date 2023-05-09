@@ -1,16 +1,15 @@
 package br.com.fiap.rentacar.entity;
 
-
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-//@Data --> Substitui o @Getter e @Setter
 @Setter
 @Getter
-public class Marca {
+public class Modelo {
 
     private Long id;
     private String nome;
+    private Double potencia;
+    private Marca marca;
 
 }
